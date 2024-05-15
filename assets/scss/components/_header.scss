@@ -1,0 +1,51 @@
+.header {
+  padding: 8px 0;
+  .container {
+    .row {
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      .logo {
+        font-size: 20px;
+        flex: 0 0 max-content;
+        color: #000000e6;
+      }
+      .navbar {
+        flex: 1 1 100%;
+        .navList {
+          display: flex;
+          gap: 15px;
+          .navItem {
+            a {
+              color: #0000008c;
+              &.active {
+                color: #000000e6;
+              }
+            }
+          }
+        }
+      }
+      .cart {
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 6px 12px;
+        width: 130px;
+        gap: 5px;
+        border: 1px solid #212529;
+        color: #212529;
+        transition: all 0.15s ease;
+        span {
+          border-radius: 50%;
+          background-color: #212529;
+          width: max-content;
+          padding: 1px 6.8px;
+          color: #fff;
+        }
+        &:hover {
+          background-color: #212529;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

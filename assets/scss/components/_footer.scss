@@ -1,0 +1,13 @@
+.footer {
+  background-color: #212529;
+  padding: 48px 0;
+  .container {
+    .row {
+      justify-content: center;
+      align-items: center;
+      p {
+        color: #fff;
+      }
+    }
+  }
+}
